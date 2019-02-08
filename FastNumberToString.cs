@@ -22,7 +22,7 @@
 // SOFTWARE.
 // =============================================================================
 
-namespace Plugins.VARP.Utilities
+namespace VARP.Utilities
 {
 	public static class FastNumberToString
 	{

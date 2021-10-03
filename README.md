@@ -1,2 +1,3 @@
-# varp_utilities
-VARP Utilities
+# XiCore
+
+Collection of classes for other Xi libraries

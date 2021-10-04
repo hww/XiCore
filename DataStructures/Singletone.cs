@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Code.Seingletone
+namespace XiCore.DataStructures
 {
 	/// <summary>
 	/// Singletone pattern based on ScriptableObject class

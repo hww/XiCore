@@ -1,0 +1,19 @@
+{
+  "name": "com.hww.XiCore",
+  "displayName": "XiCore",
+  "version": "1.0.0",
+  "unity": "2021.1",
+  "description": "XiCore is a collection of libraries for Unity.",
+  "license": "MIT",
+  "author": "hww <valery.hww@gmail.com> (https://github.com/hww)",
+  "keywords": [
+    "libs",
+    "Unity"
+  ],
+  "category": "Debug",
+  "samples": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hww/XiCore.git#upm"
+  }
+}

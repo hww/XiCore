@@ -4,14 +4,14 @@
     ["@semantic-release/commit-analyzer", { "preset": "angular" }],
     "@semantic-release/release-notes-generator",
     ["@semantic-release/changelog", { "preset": "angular" }],
-    ["@semantic-release/npm", { "npmPublish": false, "pkgRoot": "Assets/xicore" }],
+    ["@semantic-release/npm", { "npmPublish": false, "pkgRoot": "Assets/XiCore" }],
     ["@semantic-release/git", {
       "assets": ["Assets/XiCore/package.json", "CHANGELOG.md"],
       "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
     }],
     ["@semantic-release/github", {
       "assets": [
-        {"path": "xicore.unitypackage", "label": "xicore v${nextRelease.version}"}
+        {"path": "XiCore.unitypackage", "label": "XiCore v${nextRelease.version}"}
       ]
     }]
   ]

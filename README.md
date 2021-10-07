@@ -7,3 +7,4 @@ Collection of classes for other Xi libraries
 [![openupm](https://img.shields.io/npm/v/com.hww.XiCore?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.hww.XiCore/)
 [![](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/hww/XiCore/blob/master/LICENSE)
 
+ 

@@ -11,7 +11,8 @@
     "Unity"
   ],
   "category": "Debug",
-  "samples": [],
+  "samples": [
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/hww/XiCore.git#upm"

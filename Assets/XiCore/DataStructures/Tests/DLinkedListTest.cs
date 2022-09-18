@@ -32,7 +32,8 @@ using XiCore.DataStructures;
 
 namespace XiCore.DataStructures.Tests
 {
-    public class DLinkedListTest
+    [TestFixture]
+    public sealed class DLinkedListTest
     {
 
         class MyClass

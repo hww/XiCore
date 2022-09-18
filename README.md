@@ -8,3 +8,6 @@ Collection of classes for other Xi libraries
 [![](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/hww/XiCore/blob/master/LICENSE)
 
  
+A set of C# libraries that I have used for several commercial game projects. Some libraries are covered by testbench.
+
+Documentation for the library sections is contained in the child folders.

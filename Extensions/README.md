@@ -1,2 +1,3 @@
-# varp_utilities
-VARP Utilities
+# XiCore/Extensions
+
+The extentions for various C# classes

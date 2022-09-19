@@ -1,2 +1,3 @@
-# varp_string_tools
+# XiCore/StringTools
+
 Collection of string tools used in my projects

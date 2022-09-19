@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/hww/XiCore/compare/v1.0.0...v1.1.0) (2022-09-19)
+
+
+### Features
+
+* **doc:** Hello ([7884cb5](https://github.com/hww/XiCore/commit/7884cb5e4200625665cd5885cf55602e644a4d16))
+
 # 1.0.0 (2021-10-07)
 
 

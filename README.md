@@ -11,5 +11,19 @@ Collection of classes for other Xi libraries created by [hww](https://github.com
  
 A set of C# libraries that I have used for several commercial game projects. Some libraries are covered by testbench.
 
+## Install
+
+The package is available on the openupm registry. You can install it via openupm-cli.
+
+```bash
+openupm add com.hww.xicore
+```
+You can also install via git url by adding this entry in your manifest.json
+
+```bash
+"com.hww.xicore": "https://github.com/hww/XiCore.git#upm"
+```
+## Documentation
+
 Read the documentation for the library [here](https://github.com/hww/XiCore/blob/master/Assets/XiCore/README.md).    
   

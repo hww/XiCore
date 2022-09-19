@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/hww/XiCore/compare/v1.1.1...v1.2.0) (2022-09-19)
+
+
+### Features
+
+* **Timing:** Added timing ([8afd3a7](https://github.com/hww/XiCore/commit/8afd3a7c4104d5b35708c4b03b31b5d0d18cde6c))
+
 ## [1.1.1](https://github.com/hww/XiCore/compare/v1.1.0...v1.1.1) (2022-09-19)
 
 

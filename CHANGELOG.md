@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/hww/XiCore/compare/v1.1.0...v1.1.1) (2022-09-19)
+
+
+### Bug Fixes
+
+* **config:** New CI pipeline ([c4d9ade](https://github.com/hww/XiCore/commit/c4d9ade7b0416a49a9436f3ab37d46630e7de6a1))
+
 # [1.1.0](https://github.com/hww/XiCore/compare/v1.0.0...v1.1.0) (2022-09-19)
 
 

@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/hww/XiCore/compare/v1.2.3...v1.3.0) (2022-09-19)
+
+
+### Features
+
+* **git:** modified config ([f859035](https://github.com/hww/XiCore/commit/f85903528c8ec10a54273585be6af53f6f777714))
+
 ## [1.2.3](https://github.com/hww/XiCore/compare/v1.2.2...v1.2.3) (2022-09-19)
 
 

@@ -27,3 +27,4 @@ You can also install via git url by adding this entry in your manifest.json
 
 Read the documentation for the library [here](https://github.com/hww/XiCore/blob/master/Assets/XiCore/README.md).   
   
+ 

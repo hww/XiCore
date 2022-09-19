@@ -1,4 +1,4 @@
-# Fast delegates 
+# XiCore/Delegates 
 
 Simple wrapper for Action&lt;> and Function&lt;> classes used with my other prjects.
 Those classes were designed for speed but not for the memory requirements.

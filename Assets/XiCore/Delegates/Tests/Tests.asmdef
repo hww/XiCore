@@ -6,7 +6,9 @@
         "UnityEditor.TestRunner",
         "XiCore"
     ],
-    "includePlatforms": [],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": true,

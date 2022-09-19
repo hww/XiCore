@@ -1,3 +1,11 @@
+# [1.4.0](https://github.com/hww/XiCore/compare/v1.3.0...v1.4.0) (2022-09-19)
+
+
+### Features
+
+* **fields:** Added Fields component ([228fdde](https://github.com/hww/XiCore/commit/228fdde435c20a02752eba5c1da1b4b342775982))
+* **fields:** Added Fields component ([4800afb](https://github.com/hww/XiCore/commit/4800afb2556e55cc83552ba34a23fe42209307ed))
+
 # [1.3.0](https://github.com/hww/XiCore/compare/v1.2.3...v1.3.0) (2022-09-19)
 
 

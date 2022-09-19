@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/hww/XiCore/compare/v1.2.0...v1.2.1) (2022-09-19)
+
+
+### Bug Fixes
+
+* **git:** removed gitignore ([224de67](https://github.com/hww/XiCore/commit/224de6714de5c1b896df14e4a88d83c111145039))
+
 # [1.2.0](https://github.com/hww/XiCore/compare/v1.1.1...v1.2.0) (2022-09-19)
 
 

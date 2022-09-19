@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/hww/XiCore/compare/v1.2.2...v1.2.3) (2022-09-19)
+
+
+### Bug Fixes
+
+* **git:** dummy rebuild ([b842160](https://github.com/hww/XiCore/commit/b842160f71e508a294e90b03ebd92a78b1c7b416))
+
 ## [1.2.2](https://github.com/hww/XiCore/compare/v1.2.1...v1.2.2) (2022-09-19)
 
 

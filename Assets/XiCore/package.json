@@ -1,7 +1,7 @@
 {
   "name": "com.hww.xicore",
   "displayName": "XiCore",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "unity": "2021.1",
   "description": "XiCore is a collection of libraries for Unity.",
   "license": "MIT",

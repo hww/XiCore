@@ -29,6 +29,14 @@ namespace XiCore.UnityTiming
     /// <summary>
     /// Generic FPS counter agnostic to the visualization 
     /// </summary>
+    /// <usage>
+    /// public static void CreateMenu(int order)
+    /// {
+    ///   var menu = new DebugMenu("Profiling", order);
+    ///   new DebugMenuToggle(menu, "Show FPS", () => ShowFpsHud, val => ShowFpsHud = val);
+    ///   new DebugMenuToggle(menu, "Show Min/Max FPS", () => ShowFpsMinMax, val => ShowFpsMinMax = val);
+    /// }
+    /// </usage>
     public static class FpsCounter
     {
         private const float UPDATE_FPS_HUD_EVERY = 0.5f;

@@ -119,8 +119,12 @@ namespace XiCore.DataStructures.Tests
             Debug.Assert(intList.ToArray().ToString() == new int[] { 1, 2, 3, 4 }.ToString());
             intList.Remove(2);
             Debug.Assert(intList.ToArray().ToString() == new int[] { 1, 3, 4 }.ToString());
-
-
+            intList.RemoveLast();
+            Debug.Assert(intList.ToArray().ToString() == new int[] { 1, 3 }.ToString());
+            intList.RemoveFirst();
+            Debug.Assert(intList.ToArray().ToString() == new int[] { 3 }.ToString());
+            intList.Remove(2);
+            Debug.Assert(intList.ToArray().ToString() == new int[] { }.ToString());
         }
         [Test]
         public void DoubleLinkedList_ClassList()

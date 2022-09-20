@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/hww/XiCore/compare/v1.4.0...v1.4.1) (2022-09-20)
+
+
+### Bug Fixes
+
+* **files:** Added files ([f17632e](https://github.com/hww/XiCore/commit/f17632ef1744b1e7474ef977ba1d260f0fe23f43))
+
 # [1.4.0](https://github.com/hww/XiCore/compare/v1.3.0...v1.4.0) (2022-09-19)
 
 

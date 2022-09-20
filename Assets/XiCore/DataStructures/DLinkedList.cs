@@ -41,11 +41,11 @@ namespace XiCore.DataStructures
     public class DLinkedListNode<T> 
     {
         [NonSerialized]
-        internal DLinkedList<T> list;
+        internal DLinkedList<T> list;     //< Refferst to the list
         [NonSerialized]
-        internal DLinkedListNode<T> next;
+        internal DLinkedListNode<T> next; //< Reffer to the next or null
         [NonSerialized]
-        internal DLinkedListNode<T> prev;
+        internal DLinkedListNode<T> prev; //< Reffer to the previous
         internal T value;
 
         public DLinkedListNode()
@@ -98,7 +98,15 @@ namespace XiCore.DataStructures
 
         public void Remove()
         {
-            if (list != null) list.Remove(this);
+            if (list != null)
+            { 
+                list.Remove(this);
+            }
+            else
+            {
+                Debug.Assert(next == null);
+                Debug.Assert(prev == null);
+            }
         }
         public void AddAfter(DLinkedListNode<T> newNode)
         {
@@ -136,7 +144,9 @@ namespace XiCore.DataStructures
         // Fields
         // -------------------------------------------------------------------------
 
-        internal DLinkedListNode<T> head;    //< pointer to the last and first
+        // The empty list have a head equal null, but when we add first item 
+        // it will be the head.
+        internal DLinkedListNode<T> head;   //< pointer to the last and first
         internal int count;                 //< quantity
 
         // -------------------------------------------------------------------------
@@ -165,11 +175,13 @@ namespace XiCore.DataStructures
 
         public DLinkedListNode<T> First
         {
+            // The .head is null for empty list or it is the first item
             get { return head; }
         }
 
         public DLinkedListNode<T> Last
         {
+            // When the first item exist it points to the last itmem by .prev
             get { return head == null ? null : head.prev; }
         }
 

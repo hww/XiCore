@@ -23,34 +23,69 @@
 // =============================================================================
 
 
-using TMPro;
 using UnityEngine;
 using XiCore.UnityTiming;
 
 public class FpsRepresentation : MonoBehaviour
 {
-    [Header("Managed Objects")]
-    public Canvas canvas;
-    public TextMeshProUGUI textMeshPro;
-    [Header("Settings")]
-    public int fontSize = 16;
+    public bool isVisible = true;
 
-    private void OnEnable()
+    private string _text;
+
+    #region Static Private Vars
+
+    private static GUISkin _skin;
+    #endregion
+
+    void OnEnable()
     {
-        textMeshPro.fontSize = fontSize;
-        canvas.enabled = false;
+        _skin = Resources.Load<GUISkin>("XiCore/Skins/Default Skin");
+        FpsCounterData config = new FpsCounterData{
+            showFpsHud = true,
+            showFpsMinMax = true
+        };
+        FpsCounter.Initialize(config);
+    }
+
+    private void Update()
+    {
+        FpsCounter.OnUpdate(Time.unscaledDeltaTime);
+    }
+
+    private void FixedUpdate()
+    {
+        FpsCounter.OnFixedUpdate();
     }
 
     public void OnUpdate(float deltaTime)
     {
-        if (canvas.enabled != FpsCounter.ShowFpsHud)
-            canvas.enabled = FpsCounter.ShowFpsHud;
-        if (canvas.enabled)
+        if (isVisible)
         {
             if (FpsCounter.ShowFpsMinMax)
-                textMeshPro.text = $"{FpsCounter.Fps} fps\n{FpsCounter.MinFps} min\n{FpsCounter.MaxFps} max";
+                _text = $"{FpsCounter.Fps} fps\n{FpsCounter.MinFps} min\n{FpsCounter.MaxFps} max";
             else
-                textMeshPro.text = $"{FpsCounter.Fps} fps";
+                _text = $"{FpsCounter.Fps} fps";
         }
+    }
+
+    void OnGUI()
+    {
+        if (!isVisible)
+            return;
+
+        GUI.skin = _skin;
+
+        var textSize = GUI.skin.label.CalcSize(new GUIContent(_text)) + new Vector2(10, 10);
+        var position = new Vector2(Screen.width - 20 - textSize.x, 20);
+        var rect = new Rect(position, textSize);
+
+        GUI.Box(rect, GUIContent.none);
+
+        rect.x += 5f;
+        rect.width -= 5f * 2f;
+        rect.y += 5f;
+        rect.height -= 5f * 2f;
+
+        GUI.Label(rect, _text);
     }
 }

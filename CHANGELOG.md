@@ -1,3 +1,10 @@
+## [1.4.2](https://github.com/hww/XiCore/compare/v1.4.1...v1.4.2) (2022-09-20)
+
+
+### Bug Fixes
+
+* **depend:** Removed textMeshPro ([6970b12](https://github.com/hww/XiCore/commit/6970b12f066a3ef7733c88aa19755b92b2a4edd6))
+
 ## [1.4.1](https://github.com/hww/XiCore/compare/v1.4.0...v1.4.1) (2022-09-20)
 
 

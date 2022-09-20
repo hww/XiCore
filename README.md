@@ -25,6 +25,12 @@ You can also install via git url by adding this entry in your manifest.json
 ```
 ## Documentation
 
-Read the documentation for the library [here](https://github.com/hww/XiCore/blob/master/Assets/XiCore/README.md).   
+- DataStructures the data containers
+- Delegates alternative delegates
+- Extensions the extensions for some of C# classes 
+- StringTools the string manipulation library
+- UnityAttributes the custom attributes
+- UnityExtensions the extensions for some of Unity 3D classes 
+
    
  

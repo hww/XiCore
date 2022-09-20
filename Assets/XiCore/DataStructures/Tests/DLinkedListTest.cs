@@ -65,50 +65,75 @@ namespace XiCore.DataStructures.Tests
         };
 
         [Test]
-        public void DoubleLinkedListTestRun()
+        public void DoubleLinkedList_StringList()
         {
             DLinkedList<string> stringsList = new DLinkedList<string>();
-            stringsList.AddLast(new DLinkedListNode<string>("1"));
-            stringsList.AddLast(new DLinkedListNode<string>("2"));
+            stringsList.AddLast(new DLinkedListNode<string>("3"));
+            stringsList.AddLast(new DLinkedListNode<string>("4"));
+            stringsList.AddLast(new DLinkedListNode<string>("5"));
+            stringsList.AddFirst(new DLinkedListNode<string>("2"));
+            stringsList.AddFirst(new DLinkedListNode<string>("1"));
             stringsList.AddFirst(new DLinkedListNode<string>("0"));
-            Debug.Log(stringsList.ToString());
+            Debug.Log("String List: " + stringsList.ToString());
             string[] stringArray = stringsList.ToArray();
             Debug.Assert(stringArray[0] == "0");
             Debug.Assert(stringArray[1] == "1");
             Debug.Assert(stringArray[2] == "2");
-            Debug.Assert(stringsList.ToList().ToArray().ToString() == new string[] { "0", "1", "2" }.ToString());
-            Debug.Assert(stringsList.ToArray().ToString() == new string[] { "0", "1", "2" }.ToString());
+            Debug.Assert(stringArray[3] == "3");
+            Debug.Assert(stringArray[4] == "4");
+            Debug.Assert(stringArray[5] == "5");
+            Debug.Assert(stringsList.ToList().ToArray().ToString() == new string[] { "0", "1", "2", "3", "4", "5" }.ToString());
+            Debug.Assert(stringsList.ToArray().ToString() == new string[] { "0", "1", "2", "3", "4", "5" }.ToString());
             string iteratorString = "";
             foreach (string v in stringsList)
             {
                 iteratorString += v.ToString();
             }
-            Debug.Assert(iteratorString == "012");
+            Debug.Assert(iteratorString == "012345");
+        }
+        [Test]
+        public void DoubleLinkedList_IntList()
+        {
 
             DLinkedList<int> intList = new DLinkedList<int>();
-            intList.AddLast(new DLinkedListNode<int>(1));
-            intList.AddLast(new DLinkedListNode<int>(2));
+            intList.AddLast(new DLinkedListNode<int>(3));
+            intList.AddLast(new DLinkedListNode<int>(4));
+            intList.AddLast(new DLinkedListNode<int>(5));
+            intList.AddFirst(new DLinkedListNode<int>(2));
+            intList.AddFirst(new DLinkedListNode<int>(1));
             intList.AddFirst(new DLinkedListNode<int>(0));
-            Debug.Log(stringsList.ToString ( ));
+            Debug.Log("Int List: " + intList.ToString());
             int[] intArray = intList.ToArray();
             Debug.Assert(intArray[0] == 0);
             Debug.Assert(intArray[1] == 1);
             Debug.Assert(intArray[2] == 2);
-            Debug.Assert(intList.ToList().ToArray().ToString() == new int[] { 0, 1, 2 }.ToString());
-            Debug.Assert(intList.ToArray().ToString() == new int[] { 0, 1, 2 }.ToString());
+            Debug.Assert(intArray[3] == 3);
+            Debug.Assert(intArray[4] == 4);
+            Debug.Assert(intArray[5] == 5);
+            Debug.Assert(intList.ToList().ToArray().ToString() == new int[] { 0, 1, 2, 3, 4, 5 }.ToString());
+            Debug.Assert(intList.ToArray().ToString() == new int[] { 0, 1, 2, 3, 4, 5 }.ToString());
+
+            intList.RemoveLast();
+            Debug.Assert(intList.ToArray().ToString() == new int[] { 0, 1, 2, 3, 4 }.ToString());
+            intList.RemoveFirst();
+            Debug.Assert(intList.ToArray().ToString() == new int[] { 1, 2, 3, 4 }.ToString());
+            intList.Remove(2);
+            Debug.Assert(intList.ToArray().ToString() == new int[] { 1, 3, 4 }.ToString());
 
 
+        }
+        [Test]
+        public void DoubleLinkedList_ClassList()
+        {
             DLinkedList<MyClass> intusiveList = new DLinkedList<MyClass>();
             intusiveList.AddLast(new MyClass(1).link);
             intusiveList.AddLast(new MyClass(2).link);
             intusiveList.AddFirst(new MyClass(0).link);
-            Debug.Log(stringsList.ToString ( ));
+            Debug.Log("Class List: " + intusiveList.ToString ( ));
             MyClass[] classArray = intusiveList.ToArray();
             Debug.Assert(classArray[0].value == 0);
             Debug.Assert(classArray[1].value == 1);
             Debug.Assert(classArray[2].value == 2);
-            Debug.Assert(intusiveList.ToList().ToArray().ToString() == new MyClass[] { new MyClass(0), new MyClass(1), new MyClass(2) }.ToString());
-            Debug.Assert(intusiveList.ToArray().ToString() == new MyClass[] { new MyClass(0), new MyClass(1), new MyClass(2) }.ToString());
         }
     }
 }

@@ -26,7 +26,7 @@
 using UnityEngine;
 using XiCore.UnityTiming;
 
-public class FpsRepresentation : MonoBehaviour
+public class FpsCounterScene : MonoBehaviour
 {
     public bool isVisible = true;
 
@@ -49,7 +49,16 @@ public class FpsRepresentation : MonoBehaviour
 
     private void Update()
     {
-        FpsCounter.OnUpdate(Time.unscaledDeltaTime);
+        if (FpsCounter.OnUpdate(Time.unscaledDeltaTime))
+        {
+            if (isVisible)
+            {
+                if (FpsCounter.ShowFpsMinMax)
+                    _text = $"{FpsCounter.Fps} fps\n{FpsCounter.MinFps} min\n{FpsCounter.MaxFps} max";
+                else
+                    _text = $"{FpsCounter.Fps} fps";
+            }
+        }
     }
 
     private void FixedUpdate()
@@ -57,17 +66,7 @@ public class FpsRepresentation : MonoBehaviour
         FpsCounter.OnFixedUpdate();
     }
 
-    public void OnUpdate(float deltaTime)
-    {
-        if (isVisible)
-        {
-            if (FpsCounter.ShowFpsMinMax)
-                _text = $"{FpsCounter.Fps} fps\n{FpsCounter.MinFps} min\n{FpsCounter.MaxFps} max";
-            else
-                _text = $"{FpsCounter.Fps} fps";
-        }
-    }
-
+    // Render the FSP counter
     void OnGUI()
     {
         if (!isVisible)

@@ -57,21 +57,19 @@ namespace XiCore.UnityTiming
         private static float Timer;
         private static int LastFps = -1;
 
-
-        private static FpsRepresentation representation;
         private static FpsCounterData fpsCounterData;
 
         public static void Initialize(FpsCounterData data)
         {
             fpsCounterData = data;
-            representation = GameObject.FindObjectOfType<FpsRepresentation>();
             ShowFpsHud = fpsCounterData.showFpsHud;
             ShowFpsMinMax = fpsCounterData.showFpsMinMax;
             Reset();
         }
         
-        public static void OnUpdate(float unscaledDeltaTime)
+        public static bool OnUpdate(float unscaledDeltaTime)
         {
+            bool result = false;
             TotalFrames++;
             TotalDeltaTime += unscaledDeltaTime;
             if (unscaledDeltaTime > MaxDeltaTime) 
@@ -94,13 +92,15 @@ namespace XiCore.UnityTiming
                     Fps = aveFps_;
                     MinFps = minFps_;
                     MaxFps = maxFps_;
-                    representation.OnUpdate(unscaledDeltaTime);
+                    result = true;
                 }
      
                 Reset();
             }
 
             numFixedUpdates = 0;
+
+            return result;
         }
         
         public static void OnFixedUpdate()

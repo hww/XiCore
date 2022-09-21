@@ -1,3 +1,10 @@
+## [1.4.3](https://github.com/hww/XiCore/compare/v1.4.2...v1.4.3) (2022-09-21)
+
+
+### Bug Fixes
+
+* **demo:** The FPS demo is simplified ([2dbbdb1](https://github.com/hww/XiCore/commit/2dbbdb16c4bef04482f27c5f57c164308d13c1fc))
+
 ## [1.4.2](https://github.com/hww/XiCore/compare/v1.4.1...v1.4.2) (2022-09-20)
 
 

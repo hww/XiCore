@@ -1,9 +1,9 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿/* Copyright(c) 2021 Valeriya Pudova(hww.github.io) read more at the license file */
+
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-namespace XiCore
+namespace XiCore.Extensions
 {
     public static class Vector3Extensions
     {

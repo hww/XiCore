@@ -1,7 +1,9 @@
-﻿using System.Runtime.CompilerServices;
+﻿/* Copyright(c) 2021 Valeriya Pudova(hww.github.io) read more at the license file */
+
+using System.Runtime.CompilerServices;
 using UnityEngine;
 
-namespace XiCore
+namespace XiCore.Extensions
 {
     public static class ColorExtensions 
     {

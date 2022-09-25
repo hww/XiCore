@@ -1,4 +1,6 @@
-﻿using System;
+﻿/* Copyright(c) 2021 Valeriya Pudova(hww.github.io) read more at the license file */
+
+using System;
 using UnityEngine;
 #if UNITY_EDITOR
 using UnityEditor;

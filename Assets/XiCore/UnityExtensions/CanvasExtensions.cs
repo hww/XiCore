@@ -1,8 +1,10 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿/* Copyright(c) 2021 Valeriya Pudova(hww.github.io) read more at the license file */
 
-public class CanvasExtensions
+namespace XiCore.Extensions
 {
+    public class CanvasExtensions
+    {
 
+    }
 }
+

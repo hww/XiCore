@@ -34,7 +34,7 @@ You can also install via git url by adding this entry in your manifest.json
 
  ## Used By
  
--[XiKeyboard _Emacs menu and shorcuts system for Unity 3D_](https://github.com/hww/XiKeyboard)
--[XiDebugMenu _The elegant and easy to use debug menu for Unity 3D_](https://github.com/hww/XiDebugMenu) 
--[XiSound _XiSound Tiny Sound System for Unity 3D_](https://github.com/hww/XiSound)
--[XiArtManager _The Art Manager for Unity 3D_](https://github.com/hww/XiArtManager )
+- [XiKeyboard _Emacs menu and shorcuts system for Unity 3D_](https://github.com/hww/XiKeyboard)
+- [XiDebugMenu _The elegant and easy to use debug menu for Unity 3D_](https://github.com/hww/XiDebugMenu) 
+- [XiSound _XiSound Tiny Sound System for Unity 3D_](https://github.com/hww/XiSound)
+- [XiArtManager _The Art Manager for Unity 3D_](https://github.com/hww/XiArtManager)

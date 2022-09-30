@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/hww/XiCore/compare/v1.4.3...v1.5.0) (2022-09-25)
+
+
+### Features
+
+* **code:** Delete extra files ([ad363e2](https://github.com/hww/XiCore/commit/ad363e2261c5dedb646a205b9ca7115f4469653c))
+
 ## [1.4.3](https://github.com/hww/XiCore/compare/v1.4.2...v1.4.3) (2022-09-21)
 
 

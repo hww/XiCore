@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/hww/XiCore/compare/v1.5.0...v1.6.0) (2022-09-30)
+
+
+### Features
+
+* **code:** Added the CRC32 code ([969a6ee](https://github.com/hww/XiCore/commit/969a6ee4e5e3c759f3341c98eaa1588808386576))
+
 # [1.5.0](https://github.com/hww/XiCore/compare/v1.4.3...v1.5.0) (2022-09-25)
 
 

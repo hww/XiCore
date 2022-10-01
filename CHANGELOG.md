@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/hww/XiCore/compare/v1.6.0...v1.6.1) (2022-10-01)
+
+
+### Bug Fixes
+
+* **code:** Assembly file for fields added ([3970f07](https://github.com/hww/XiCore/commit/3970f07ae8c8e1d63cd660ed6350b03864fa1480))
+
 # [1.6.0](https://github.com/hww/XiCore/compare/v1.5.0...v1.6.0) (2022-09-30)
 
 

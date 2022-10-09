@@ -1,6 +1,6 @@
 ﻿/* Copyright(c) 2021 Valeriya Pudova(hww.github.io) read more at the license file */
 
-namespace XiCore.Extensions
+namespace XiCore.UnityExtensions
 {
     /*
     public static class IAsyncOperationExtensions

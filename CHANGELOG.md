@@ -1,3 +1,10 @@
+## [1.6.3](https://github.com/hww/XiCore/compare/v1.6.2...v1.6.3) (2022-10-09)
+
+
+### Bug Fixes
+
+* **code:** Minor changes ([f8a8e47](https://github.com/hww/XiCore/commit/f8a8e47e116449f32763560fe0a2cb13887639d4))
+
 ## [1.6.2](https://github.com/hww/XiCore/compare/v1.6.1...v1.6.2) (2022-10-09)
 
 

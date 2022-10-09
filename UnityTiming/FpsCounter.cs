@@ -55,7 +55,6 @@ namespace XiCore.UnityTiming
         private static float MaxDeltaTime;
         private static int TotalFrames;
         private static float Timer;
-        private static int LastFps = -1;
 
         private static FpsCounterData fpsCounterData;
 

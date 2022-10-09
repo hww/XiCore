@@ -3,7 +3,7 @@
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-namespace XiCore.Extensions
+namespace XiCore.UnityExtensions
 {
     public static class ColorExtensions 
     {

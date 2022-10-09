@@ -2,7 +2,7 @@
 
 using UnityEngine;
 
-namespace XiCore.Extensions
+namespace XiCore.UnityExtensions
 
 {
     public static class GameObjectExtensions

@@ -1,3 +1,11 @@
+## [1.6.2](https://github.com/hww/XiCore/compare/v1.6.1...v1.6.2) (2022-10-09)
+
+
+### Bug Fixes
+
+* **code:** assembly file deleted ([884c26e](https://github.com/hww/XiCore/commit/884c26e5bff2b61351364e945703defefe85225f))
+* **code:** assembly file deleted ([211f6c8](https://github.com/hww/XiCore/commit/211f6c8c4dbd021c231dcf03f4291c4f4a07c4ce))
+
 ## [1.6.1](https://github.com/hww/XiCore/compare/v1.6.0...v1.6.1) (2022-10-01)
 
 

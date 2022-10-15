@@ -1,3 +1,10 @@
+## [1.6.4](https://github.com/hww/XiCore/compare/v1.6.3...v1.6.4) (2022-10-15)
+
+
+### Bug Fixes
+
+* **code:** Added argument to the decamelizer ([5a647c6](https://github.com/hww/XiCore/commit/5a647c6fe6301cdf871fdba8e9b37ed58404a3ab))
+
 ## [1.6.3](https://github.com/hww/XiCore/compare/v1.6.2...v1.6.3) (2022-10-09)
 
 

@@ -1,3 +1,67 @@
+## [1.6.4](https://github.com/hww/XiCore/compare/v1.6.3...v1.6.4) (2022-10-15)
+
+
+### Bug Fixes
+
+* **code:** Added argument to the decamelizer ([5a647c6](https://github.com/hww/XiCore/commit/5a647c6fe6301cdf871fdba8e9b37ed58404a3ab))
+
+## [1.6.3](https://github.com/hww/XiCore/compare/v1.6.2...v1.6.3) (2022-10-09)
+
+
+### Bug Fixes
+
+* **code:** Minor changes ([f8a8e47](https://github.com/hww/XiCore/commit/f8a8e47e116449f32763560fe0a2cb13887639d4))
+
+## [1.6.2](https://github.com/hww/XiCore/compare/v1.6.1...v1.6.2) (2022-10-09)
+
+
+### Bug Fixes
+
+* **code:** assembly file deleted ([884c26e](https://github.com/hww/XiCore/commit/884c26e5bff2b61351364e945703defefe85225f))
+* **code:** assembly file deleted ([211f6c8](https://github.com/hww/XiCore/commit/211f6c8c4dbd021c231dcf03f4291c4f4a07c4ce))
+
+## [1.6.1](https://github.com/hww/XiCore/compare/v1.6.0...v1.6.1) (2022-10-01)
+
+
+### Bug Fixes
+
+* **code:** Assembly file for fields added ([3970f07](https://github.com/hww/XiCore/commit/3970f07ae8c8e1d63cd660ed6350b03864fa1480))
+
+# [1.6.0](https://github.com/hww/XiCore/compare/v1.5.0...v1.6.0) (2022-09-30)
+
+
+### Features
+
+* **code:** Added the CRC32 code ([969a6ee](https://github.com/hww/XiCore/commit/969a6ee4e5e3c759f3341c98eaa1588808386576))
+
+# [1.5.0](https://github.com/hww/XiCore/compare/v1.4.3...v1.5.0) (2022-09-25)
+
+
+### Features
+
+* **code:** Delete extra files ([ad363e2](https://github.com/hww/XiCore/commit/ad363e2261c5dedb646a205b9ca7115f4469653c))
+
+## [1.4.3](https://github.com/hww/XiCore/compare/v1.4.2...v1.4.3) (2022-09-21)
+
+
+### Bug Fixes
+
+* **demo:** The FPS demo is simplified ([2dbbdb1](https://github.com/hww/XiCore/commit/2dbbdb16c4bef04482f27c5f57c164308d13c1fc))
+
+## [1.4.2](https://github.com/hww/XiCore/compare/v1.4.1...v1.4.2) (2022-09-20)
+
+
+### Bug Fixes
+
+* **depend:** Removed textMeshPro ([6970b12](https://github.com/hww/XiCore/commit/6970b12f066a3ef7733c88aa19755b92b2a4edd6))
+
+## [1.4.1](https://github.com/hww/XiCore/compare/v1.4.0...v1.4.1) (2022-09-20)
+
+
+### Bug Fixes
+
+* **files:** Added files ([f17632e](https://github.com/hww/XiCore/commit/f17632ef1744b1e7474ef977ba1d260f0fe23f43))
+
 # [1.4.0](https://github.com/hww/XiCore/compare/v1.3.0...v1.4.0) (2022-09-19)
 
 

@@ -212,7 +212,7 @@ namespace XiCore.StringTools
 		/// </summary>
 		/// <param name="str"></param>
 		/// <returns></returns>
-        public static string Decamelize(string str)
+        public static string Decamelize(string str,  char separator = '-')
         {
             Debug.Assert(str != null);
             var output = string.Empty;
@@ -224,7 +224,7 @@ namespace XiCore.StringTools
                 if (char.IsUpper(c))
                 {
                     if (small)
-                        output += '-';
+                        output += separator;
                     output += char.ToLower(c);
                     small = false;
                     space = false;
@@ -237,7 +237,7 @@ namespace XiCore.StringTools
                 else
                 {
                     if (space)
-                        output += '-';
+                        output += separator;
                     output += c;
                     small = true; // make - if next capital
                     space = false; // do not make - if next small
